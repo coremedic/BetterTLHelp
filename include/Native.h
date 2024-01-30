@@ -3,7 +3,7 @@
 
 #include <windows.h>
 
-typedef NTSTATUS(WINAPI *t_NtQuerySystemInformation)(
+typedef NTSTATUS(NTAPI* tNtQuerySystemInformation)(
     ULONG SystemInformationClass,
     PVOID SystemInformation,
     ULONG SystemInformationLength,
