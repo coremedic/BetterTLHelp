@@ -1,7 +1,12 @@
 #ifndef NATIVE_H
 #define NATIVE_H
 
+#include <stdio.h>
 #include <windows.h>
+
+#define NT_SUCCESS(x) ((x) >= 0)
+#define STATUS_INFO_LENGTH_MISMATCH 0xc0000004
+#define SystemProcessInformation 5
 
 typedef NTSTATUS(NTAPI* tNtQuerySystemInformation)(
     ULONG SystemInformationClass,
