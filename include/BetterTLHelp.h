@@ -1,0 +1,6 @@
+#ifndef BETTERTLHELP_H
+#define BETTERTLHELP_H
+
+
+
+#endif //BETTERTLHELP_H
